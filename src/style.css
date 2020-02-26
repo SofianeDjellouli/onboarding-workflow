@@ -1,0 +1,22 @@
+main {
+	min-height: 100vh;
+}
+.wrapper {
+	background-color: white !important;
+}
+.wrapper > div:first-child {
+	min-height: 400px !important;
+}
+label {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+i {
+	cursor: pointer;
+}
+.justify-center {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
